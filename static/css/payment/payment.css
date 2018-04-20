@@ -101,6 +101,7 @@
 .container .container-bottom{
 	width: 100%;
 	height: 35%;
+	position: relative;
 }
 .container .container-bottom .nav{
     width: 100%;
@@ -135,7 +136,84 @@
     margin-top: 0.5rem;
     margin-left: 0.2rem;
 }
+.container .container-bottom .content{
+	width: 100%;
+}
+.container .container-bottom .content .item{
+	width: 100%;
+	overflow: hidden;
+	height: 3rem;
+}
+.container .container-bottom .content .item .rank{
+    width: 1rem;
+    height: 100%;
+    float: left;
+    font-size: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ffcd20;
+}
+.container .container-bottom .content .item .head{
+	width: 3rem;
+	height: 100%;
+	float: left;
+}
+.container .container-bottom .content .item .head img{
+	width: 100%;
+	height: 100%;
+}
 
+.container .container-bottom .content .item .name{
+	width: 9rem;
+	height: 100%;
+	float: left;
+}
+
+.container .container-bottom .content .item .name .name-title{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.7rem;
+    line-height: 2rem;
+}
+.container .container-bottom .content .item .name .name-content{
+	width: 100%;
+	height: 1.5rem;
+	color: #7988a4;
+}
+.container .container-bottom .content .item .time{
+	width: 3rem;
+    height: 100%;
+    float: left;
+    color: #7988a4;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.container .container-bottom .content .item .time i{
+    color: #ffcd20;
+    font-size: 0.8rem;
+}
+.container .container-bottom .submit{
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.container .container-bottom .submit button{
+    width: 10rem;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    background: rgba(0,0,0,0);
+    margin-left: 3rem;
+}
+
+.container .container-bottom .submit button img{
+	width: 100%;
+	height: 100%;
+}
 
 
 
