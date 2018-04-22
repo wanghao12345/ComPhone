@@ -215,8 +215,56 @@
 	height: 100%;
 }
 
+/*弹窗*/
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.mask .tip{
+    width: 15rem;
+    height: 16rem;
+    position: absolute;
+    background: url(../../img/payment/pop-back.png);
+    background-size: 100% 100%;
+    left: 0rem;
+    top: 50%;
+    margin-top: -8rem;
+}
 
+.mask .tip .tip-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
+.mask .tip .tip-content .close{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+}
+
+.mask .tip .tip-content .close img{
+    width: 100%;
+    height: 100%;
+}
+
+.mask .tip .tip-content .receive{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 3rem;
+    right: 3.5rem;
+}
+.mask .tip .tip-content .receive img{
+    width: 100%;
+    height: 100%;
+}
 
 
 

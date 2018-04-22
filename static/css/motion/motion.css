@@ -1,0 +1,243 @@
+.container{
+	width: 100%;
+}
+.container .container-top{
+    width: 100%;
+    height: 22rem;
+    background: url(../../img/motion/back-top.png);
+    background-size: 100% 100%;
+}
+
+.container .container-top .nav{
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container .container-top .nav button.goback{
+	width: 1rem;
+	height: 1rem;
+	float: left;
+	background: rgba(0,0,0,0);
+    border: 0;
+    padding: 0;
+}
+.container .container-top .nav button.goback img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.container .container-top .nav span.title{
+	width: 2rem;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -1rem;
+    text-align: center;
+    color: white;
+    font-size: 0.65rem;
+    line-height: 1rem;
+}
+
+.container .container-top .nav button.menu{
+    width: 1.1rem;
+    height: 1rem;
+    float: right;
+    background: rgba(0,0,0,0);
+    border: 0;
+    padding: 0;
+}
+
+.container .container-top .nav button.menu img{
+	width: 100%;
+	height: 100%;
+}
+.container .container-top .time{
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+.container .container-top .time .time-icon{
+    width: 4rem;
+    height: 100%;
+    text-align: center;
+    float: left;
+    line-height: 5rem;
+}
+.container .container-top .time .time-icon img{
+    width: 2rem;
+    height: 2rem;
+}
+.container .container-top .time .time-num{
+    width: 4rem;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    line-height: 3rem;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+.container .container-top .time .time-num p{
+    float: left;
+    width: 0.7rem;
+    line-height: 0.6rem;
+    margin-top: 1.2rem;
+    font-size: 0.5rem;
+}
+.container .container-top .time .time-num span{
+    float: left;
+    font-size: 1rem;
+    line-height: 3.5rem;
+}
+.container .container-top .time .time-pay{
+    width: 5rem;
+    height: 100%;
+    float: right;
+    color: white;
+}
+
+.container .container-top .time .time-pay p{
+    float: left;
+    width: 0.7rem;
+    line-height: 0.6rem;
+    margin-top: 1.2rem;
+    font-size: 0.5rem;
+}
+.container .container-top .time .time-pay span{
+    float: left;
+    font-size: 0.5rem;
+    line-height: 3.5rem;
+}
+.container .container-top .time .time-pay span i{
+    font-size: 1rem;
+    margin-right: 0.1rem;
+}
+.container .container-top .target{
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 1.7rem;
+    margin-top: 0.6rem;
+}
+.container .container-top .target i{
+    width: 0.5rem;
+    display: block;
+    float: left;
+    border-bottom: 0.1rem solid white;
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+}
+.container .container-top .target span{
+    width: 5rem;
+    height: 100%;
+    display: block;
+    float: left;
+    color: white;
+    font-size: 0.6rem;
+}
+.container .title{
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+    color: #1c7eec;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+.container .title i{
+    width: 4rem;
+    float: left;
+    display: block;
+    border-bottom: 0.06rem solid #1c7eec;
+    margin-top: 1rem;
+}
+.container .title span{
+    width: 4rem;
+    float: left;
+    display: block;
+    text-align: center;
+    height: 100%;
+    line-height: 2rem;
+}
+.container .container-middle{
+    width: 100%;
+    height: 11rem;
+}
+.container .container-middle .middle-top{
+    width: 100%;
+    height: 8rem;
+    background: url(../../img/motion/back-middle.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+.container .container-middle .middle-top .btn-over{
+    width: 9rem;
+    height: 2rem;
+    position: absolute;
+    background: rgba(0,0,0,0);
+    outline: none;
+    border: 0;
+    bottom: 0.5rem;
+    left: 50%;
+    margin-left: -4.5rem;
+}
+.container .container-middle .middle-top .btn-over img{
+    width: 100%;
+    height: 100%;
+}
+.container .container-middle .middle-bottom{
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+.container .container-middle .middle-bottom h4{
+    width: 100%;
+    height: 1.5rem;
+    line-height: 2rem;
+    font-size: 0.65rem;
+}
+.container .container-middle .middle-bottom p{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.5rem;
+    color: #cccccc;
+}
+.container .container-bottom{
+    width: 100%;
+    height: 11rem;
+}
+.container .container-bottom .bottom-top{
+    width: 100%;
+    height: 8rem;
+    background: url(../../img/motion/back-bottom.png);
+    background-size: 100% 100%;
+}
+.container .container-bottom .bottom-bottom{
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+.container .container-bottom .bottom-bottom h4{
+    width: 100%;
+    height: 1.5rem;
+    line-height: 2rem;
+    font-size: 0.65rem;
+}
+.container .container-bottom .bottom-bottom p{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.5rem;
+    color: #cccccc;
+}
+
