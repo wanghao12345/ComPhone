@@ -33,13 +33,13 @@
 
 
 .container .container-top .nav span.title{
-	width: 2rem;
+    width: 4rem;
     height: 100%;
     margin: 0 auto;
     position: absolute;
     display: block;
     left: 50%;
-    margin-left: -1rem;
+    margin-left: -3rem;
     text-align: center;
     color: white;
     font-size: 0.65rem;

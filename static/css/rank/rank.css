@@ -1,0 +1,225 @@
+.container{
+	width: 100%;
+    height: 100%;
+}
+.container .container-top{
+    width: 100%;
+    height: 35%;
+    background: url(../../img/rank/back.png);
+    background-size: 100% 100%;
+}
+
+.container .container-top .nav{
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container .container-top .nav button.goback{
+	width: 1rem;
+	height: 1rem;
+	float: left;
+	background: rgba(0,0,0,0);
+    border: 0;
+    padding: 0;
+}
+.container .container-top .nav button.goback img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.container .container-top .nav span.title{
+    width: 4rem;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -2rem;
+    text-align: center;
+    color: white;
+    font-size: 0.65rem;
+    line-height: 1rem;
+}
+
+.container .container-top .nav button.menu{
+    width: 1.1rem;
+    height: 1rem;
+    float: right;
+    background: rgba(0,0,0,0);
+    border: 0;
+    padding: 0;
+}
+
+.container .container-top .nav button.menu img{
+	width: 100%;
+	height: 100%;
+}
+.container .container-top .time{
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    color: #73c1fd;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    font-size: 0.5rem;
+    margin-top: 1rem;
+}
+.container .container-top .time .left{
+    width: 5rem;
+    height: 100%;
+    float: left;
+}
+.container .container-top .time .left i{
+    font-size: 0.65rem;
+    color: white;
+    margin-right: 0.2rem;
+}
+.container .container-top .time .right{
+    width: 5rem;
+    height: 100%;
+    float: right;
+    text-align: right;
+    overflow: hidden;
+    line-height: 0.8rem;
+}
+.container .container-top .time .right i{
+    width: 0.4rem;
+    display: block;
+    float: right;
+    border-bottom: 0.05rem solid #73c1fd;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.container .container-top .time .right span{
+    width: 4rem;
+    height: 100%;
+    display: block;
+    float: right;
+    text-align: right;
+}
+.container .container-top .head{
+    width: 100%;
+    height: 5rem;
+}
+.container .container-top .head .head-img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    background: url(../../img/rank/head.png);
+    background-size: 100% 100%;
+}
+
+.container .container-top .head .head-name{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    color: white;
+    font-size: 0.6rem;
+}
+.container .container-top .head .head-index{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    color: white;
+    font-size: 0.7rem;
+    color: #ffcd20;
+}
+.container .container-bottom{
+    width: 100%;
+    height: 65%;
+    overflow-y: auto;
+}
+
+.container .container-bottom .item{
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.container .container-bottom .item .item-1{
+    width: 1rem;
+    height: 100%;
+    float: left;
+    text-align: right;
+    line-height: 3rem;
+}
+.container .container-bottom .item:nth-child(1) .item-1{
+    color: #d94140;
+}
+.container .container-bottom .item:nth-child(2) .item-1{
+    color: #cc6515;
+}
+.container .container-bottom .item:nth-child(3) .item-1{
+    color: #ffcd20;
+}
+
+.container .container-bottom .item .item-2{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    background: url(../../img/rank/head.png);
+    background-size: 100% 100%;
+    margin: 0 0.5rem;
+    margin-top: 0.5rem;
+    position: relative;
+}
+.container .container-bottom .item .item-2 img{
+    position: absolute;
+    width: 1.5rem;
+    top: -0.4rem;
+    left: -0.4rem;
+}
+.container .container-bottom .item:nth-child(1) .item-2 img{
+    position: absolute;
+    width: 1.5rem;
+    top: -0.5rem;
+    left: -0.5rem;
+}
+
+.container .container-bottom .item .item-3{
+    width: 7rem;
+    height: 100%;
+    float: left;
+    line-height: 3rem;
+}
+.container .container-bottom .item:nth-child(1) .item-3{
+    color: #d94140;
+}
+.container .container-bottom .item:nth-child(2) .item-3{
+    color: #cc6515;
+}
+.container .container-bottom .item:nth-child(3) .item-3{
+    color: #ffcd20;
+}
+
+.container .container-bottom .item .item-4{
+    width: 4rem;
+    height: 100%;
+    float: right;
+    line-height: 3rem;
+    font-size: 0.5rem;
+    color: #8290aa;
+
+}
+.container .container-bottom .item .item-4 i{
+    width: 4rem;
+    height: 100%;
+    float: right;
+    line-height: 3rem;
+    font-size: 0.5rem;
+    color: black;
+}
+
+
+
+
+
+
